@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    color: black;
+}
+
+body {
+    background-image: url(images/mountains-universe-1.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 40px 72px;
+}
+
+a {
+    text-decoration: none;
+    color: #C4C4CC;
+}
+
+a:hover{
+    font-weight: bold;
+    color: white;
+}
+
+div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+div#home {
+    gap: 24px;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    color: #E1E1E6;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 12px 32px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.pages {
+    align-items: flex-start;
+    margin: 63px 102px;
+    max-width: 650px;
+    gap: 16px;
+}
+
+#universe {
+    background-image: url(images/mountains-universe02.png);
+    background-size: cover;
+}
